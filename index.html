@@ -1,193 +1,192 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Статья о здоровье в Южной Африке</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Article: Joint Health in South Africa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fdfdfd;
+            color: #222;
+        }
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f2f5f8;
-    color: #222;
-}
+        .container {
+            max-width: 800px;
+            background: #ffffff;
+            margin: 20px auto 120px auto;
+            padding: 30px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+        }
 
-.container {
-    max-width: 820px;
-    background: #ffffff;
-    margin: 20px auto 120px auto;
-    padding: 30px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
+        .header {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 10px;
+        }
 
-.header {
-    font-size: 13px;
-    color: #777;
-    margin-bottom: 10px;
-}
+        h1 {
+            color: #0b0b0b;
+            line-height: 1.4;
+            font-size: 28px;
+        }
 
-h1 {
-    color: #8b0000;
-    line-height: 1.3;
-    font-size: 28px;
-}
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
 
-h2 {
-    margin-top: 30px;
-    color: #333;
-}
+        .hero-img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
 
-.hero-img {
-    width: 100%;
-    border-radius: 8px;
-    margin: 20px 0;
-}
+        .caption {
+            font-size: 13px;
+            color: #666;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
 
-.caption {
-    font-size: 13px;
-    color: #666;
-    margin-top: -10px;
-    margin-bottom: 20px;
-}
+        .highlight {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 4px solid #ffb300;
+            margin: 20px 0;
+            font-weight: bold;
+        }
 
-.highlight {
-    background: #fff8e1;
-    padding: 15px;
-    border-left: 5px solid #ffb300;
-    margin: 20px 0;
-    font-weight: bold;
-}
+        .button {
+            display: block;
+            background: #198754;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 20px;
+            margin: 30px 0;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
 
-.button {
-    display: block;
-    background: #198754;
-    color: white;
-    text-align: center;
-    padding: 18px;
-    font-size: 20px;
-    margin: 30px 0;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: 0.2s;
-}
+        .button:hover {
+            background: #146c43;
+        }
 
-.button:hover {
-    background: #146c43;
-}
+        .quiz-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            font-size: 18px;
+        }
 
-.quiz-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 30px 0;
-    font-size: 16px;
-}
+        .scroll-cta {
+            position: fixed;
+            bottom: -100px;
+            left: 0;
+            width: 100%;
+            background: #198754;
+            text-align: center;
+            padding: 15px;
+            transition: 0.4s;
+        }
 
-.scroll-cta {
-    position: fixed;
-    bottom: -100px;
-    left: 0;
-    width: 100%;
-    background: #198754;
-    text-align: center;
-    padding: 16px;
-    transition: 0.4s;
-}
+        .scroll-cta.show {
+            bottom: 0;
+        }
 
-.scroll-cta.show {
-    bottom: 0;
-}
+        .scroll-cta a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-.scroll-cta a {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.disclaimer {
-    font-size: 12px;
-    color: #777;
-    margin-top: 40px;
-}
-</style>
+        .disclaimer {
+            font-size: 12px;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-<div class="header">
-Независимый обзор состояния здоровья | Южная Африка | <span id="year"></span>
-</div>
+        <div class="header">
+            Independent Health Review | South Africa | <span id="year"></span>
+        </div>
 
-<h1>После 50 лет повседневная активность стала ощущаться по-другому — вот что сделал один житель Кейптауна</h1>
+        <h1>After 50, daily activity started to feel different — here is what a Cape Town resident did</h1>
 
-<img class="hero-img" src="hero.jpg.jpg" alt="Active South African man over 50">
-<div class="caption">Житель Кейптауна ведет активный образ жизни после 50 лет</div>
+        <img class="hero-img" src="hero.jpg.jpg" alt="Active South African man over 50">
+        <div class="caption">A Cape Town resident maintaining an active lifestyle after 50.</div>
 
-<p><strong>Кейптаун, Южная Африка.</strong> Примерно в начале своих 50-х годов Джон М. начал замечать постепенные изменения в своей подвижности.</p>
+        <p><strong>Cape Town, South Africa.</strong> Roughly in his late 50s, John M. began to notice gradual changes in his mobility.</p>
 
-<p>Это не было внезапно. Изменения нарастали медленно — более долгие утренние подъемы, снижение гибкости и больше усилий при повседневных движениях.</p>
+        <p>It wasn't sudden. The changes happened slowly — deeper fatigue, stiffness, and more effort required for everyday movements.</p>
 
-<div class="highlight">
-Многие взрослые старше 50 лет испытывают похожие изменения в подвижности, но откладывают поиск поддерживающих вариантов.
-</div>
+        <div class="highlight">
+           Many adults over 50 experience similar changes in mobility but often delay finding support options.
+        </div>
 
-<h2>Почему подвижность может меняться после 50</h2>
+        <h2>Why mobility can change after 50</h2>
 
-<p>Выработка коллагена естественным образом снижается с возрастом. Гибкость суставов может уменьшаться. Повседневный комфорт может постепенно меняться со временем.</p>
+        <p>Collagen production naturally declines with age. Joint flexibility can decrease. Everyday comfort may gradually change over time.</p>
 
-<p>Вместо того чтобы игнорировать эти ранние признаки, все больше южноафриканцев предпринимают проактивные шаги для поддержки долгосрочной подвижности.</p>
+        <p>Instead of ignoring these early signs, more and more South Africans are taking proactive steps to support their long-term mobility.</p>
 
-<h2>Быстрая самооценка</h2>
+        <h2>Quick Self-Assessment</h2>
 
-<div class="quiz-box">
-✔ Утренняя скованность, длящаяся дольше, чем раньше<br><br>
-✔ Снижение гибкости по сравнению с предыдущими годами<br><br>
-✔ Требуется больше усилий для подъема по лестнице или длительных прогулок
-</div>
+        <div class="quiz-box">
+            ✔️ Is morning stiffness holding you back longer than before?<br><br>
+            ✔️ Reduced flexibility compared to previous years?<br><br>
+            ✔️ Requires more effort to climb stairs or take long walks?
+        </div>
 
-<p>Если вы относитесь к одному или нескольким пунктам выше, возможно, стоит рассмотреть варианты поддержки суставов.</p>
+        <p>If you relate to one or more points above, it is worth considering options for joint support.</p>
 
-<a class="button" href="https://adsssite.com/?flow=ZDMxMTAzODgtNDIzYy00NjI3LWJmYjgtZDNmMDNiOTVlY2Qy">
-Ознакомиться с официальной информацией
-</a>
+        <a class="button" href="https://adsssite.com/?flow=2UfawZOmDTAzODgzNDIzYy00djI3LU4eYjgtZDXNMDNlOTY1Y2Qy">
+            View Official Information
+        </a>
 
-<h2>Почему растет интерес по всей Южной Африке</h2>
+        <h2>Why interest is growing across South Africa</h2>
 
-<ul>
-<li>Стремление сохранить независимость</li>
-<li>Поддержка структуры и гибкости суставов</li>
-<li>Проактивный подход к здоровью после 50</li>
-</ul>
+        <ul>
+            <li>A desire to maintain independence</li>
+            <li>Supporting joint structure and flexibility</li>
+            <li>A proactive approach to health after 50</li>
+        </ul>
 
-<p>Наличие может варьироваться в зависимости от регионального спроса.</p>
+        <p>Opinions may vary depending on regional demand.</p>
 
-<div class="disclaimer">
-Этот материал предназначен только для информационных целей и не является медицинской консультацией. Результаты могут отличаться. Всегда консультируйтесь с квалифицированным специалистом.
-</div>
+        <div class="disclaimer">
+            This material is intended for informational purposes only and does not constitute medical advice. Results may vary. Always consult a qualified specialist.
+        </div>
 
-</div>
+    </div>
 
-<div class="scroll-cta" id="scrollCTA">
-<a href="https://adsssite.com/?flow=ZDMxMTAzODgtNDIzYy00NjI3LWJmYjgtZDNmMDNiOTVlY2Qy">
-Проверить наличие мест в Южной Африке →
-</a>
-</div>
+    <div class="scroll-cta" id="scrollCTA">
+        <a href="https://adsssite.com/?flow=2UfawZOmDTAzODgzNDIzYy00djI3LU4eYjgtZDXNMDNlOTY1Y2Qy">
+            Check Availability in South Africa →
+        </a>
+    </div>
 
-<script>
-document.getElementById("year").innerText = new Date().getFullYear();
+    <script>
+        document.getElementById("year").innerText = new Date().getFullYear();
 
-window.addEventListener("scroll", function() {
-    var scrollCTA = document.getElementById("scrollCTA");
-    if (window.scrollY > 600) {
-        scrollCTA.classList.add("show");
-    }
-});
-</script>
+        window.addEventListener("scroll", function() {
+            var scrollCTA = document.getElementById("scrollCTA");
+            if (window.scrollY > 400) {
+                scrollCTA.classList.add("show");
+            }
+        });
+    </script>
 
 </body>
 </html>
